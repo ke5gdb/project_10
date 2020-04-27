@@ -18,7 +18,12 @@ function App() {
               </button>
               <div className="dropdown-content">
                   <a href="#">New</a>
-                  <a href="#">Open</a>
+                      <a href="#">Open
+
+                          <input type="button" id="get_file" value="Grab file" />
+                          <input type="file" id="my_file" />
+                       
+                          </a>
                   <a href="#">Save</a>
                   <a href="#">Save As...</a>
                   <a href="#">Export as PDF</a>

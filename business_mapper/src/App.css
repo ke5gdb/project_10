@@ -8,14 +8,6 @@
   margin-top: 50px;
 }
 
-/*
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-   animation: App-logo-spin infinite 20s linear; 
-  }
-}
-    */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -39,34 +31,6 @@
     transform: rotate(360deg);
   }
 }
-
-/* Style the top navigation bar 
-.navbar {
-    overflow: hidden; /* Hide overflow 
-    background-color: white; /* Dark background color 
-}
-
-    /* Style the navigation bar links 
-    .navbar a {
-        float: left; /* Make sure that the links stay side-by-side 
-        display: block; /* Change the display to block, for responsive reasons (see below) 
-        color: black; /* White text color 
-        text-align: center; /* Center the text 
-        padding: 14px 20px; /* Add some padding 
-        text-decoration: none; /* Remove underline 
-    }
-
-        /* Right-aligned link 
-        .navbar a.right {
-            float: right; /* Float a link to the right 
-        }
-
-        /* Change color on hover/mouse-over 
-        .navbar a:hover {
-            background-color: lightgrey; /* Grey background color 
-            color: blue; /* Black text color 
-        }
-    */
 
 
 /* Navbar container */
@@ -145,4 +109,17 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#my_file {
+    display: none;
+}
+
+#get_file {
+    background: #f9f9f9;
+    border: 5px solid #88c;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
 }
